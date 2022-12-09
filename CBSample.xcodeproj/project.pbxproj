@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F22B19FC2942A20000078A64 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F22B19FB2942A20000078A64 /* CoreBluetooth.framework */; };
+		F22B19FE2942BC2800078A64 /* BluetoothViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22B19FD2942BC2800078A64 /* BluetoothViewModel.swift */; };
 		F2AE85C12942387900143432 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AE85C02942387900143432 /* AppDelegate.swift */; };
 		F2AE85C32942387900143432 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AE85C22942387900143432 /* SceneDelegate.swift */; };
 		F2AE85C52942387900143432 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AE85C42942387900143432 /* ViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F22B19FB2942A20000078A64 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		F22B19FD2942BC2800078A64 /* BluetoothViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothViewModel.swift; sourceTree = "<group>"; };
 		F2AE85BD2942387900143432 /* CBSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CBSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2AE85C02942387900143432 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2AE85C22942387900143432 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -33,17 +37,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F22B19FC2942A20000078A64 /* CoreBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F22B19FA2942A20000078A64 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F22B19FB2942A20000078A64 /* CoreBluetooth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F2AE85B42942387800143432 = {
 			isa = PBXGroup;
 			children = (
 				F2AE85BF2942387900143432 /* CBSample */,
 				F2AE85BE2942387900143432 /* Products */,
+				F22B19FA2942A20000078A64 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -66,6 +80,7 @@
 				F2AE85CE2942387900143432 /* LaunchScreen.storyboard */,
 				F2AE85D12942387900143432 /* Info.plist */,
 				F2AE85C92942387900143432 /* CBSample.xcdatamodeld */,
+				F22B19FD2942BC2800078A64 /* BluetoothViewModel.swift */,
 			);
 			path = CBSample;
 			sourceTree = "<group>";
@@ -144,6 +159,7 @@
 				F2AE85CB2942387900143432 /* CBSample.xcdatamodeld in Sources */,
 				F2AE85C52942387900143432 /* ViewController.swift in Sources */,
 				F2AE85C12942387900143432 /* AppDelegate.swift in Sources */,
+				F22B19FE2942BC2800078A64 /* BluetoothViewModel.swift in Sources */,
 				F2AE85C32942387900143432 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
